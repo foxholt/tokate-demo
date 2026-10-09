@@ -19,7 +19,13 @@ The initial six tests pass because they do not cover uneven splits. A passing ba
 
 Preserve every cent when splitting an amount between people. Keep the existing API and input-validation behavior, add tests for uneven splits, and demonstrate that the example totals $100.00 after the change. Keep the work limited to the exercise; do not add dependencies or change automation.
 
-The starter contains no GitHub workflows or Tokate integration. Repository automation is a separate setup step.
+## Tokate participation
+
+Each contribution requires an approved issue and a grant for that donor on that issue. The policy permits Codex with `gpt-6.1-sol` at `high` or `xhigh` effort, caps coding plus verification at 30 minutes, and keeps project commands offline. Donors use their own model accounts; this repository contains no model credentials.
+
+Verification runs `node --test`, both locally and in the read-only `verify` GitHub Actions job. The coordinator is pinned to Tokate 0.3.5 by source commit and release archive checksum. It can close pull requests that do not have current Tokate authorization; request access before submitting a contribution. Maintainers review and merge changes after CI passes.
+
+See the [Tokate donor guide](https://github.com/obselate/tokate/blob/06092f3428114677961435db7a12a04de2aff748/docs/donors.md) for the contribution flow.
 
 ## Source and license
 
