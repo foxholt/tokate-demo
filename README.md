@@ -23,9 +23,9 @@ Preserve every cent when splitting an amount between people. Keep the existing A
 
 Each contribution requires an approved issue and a grant for that donor on that issue. The policy permits Codex with `gpt-6.1-sol` at `high` or `xhigh` effort, caps coding plus verification at 30 minutes, and keeps project commands offline. Donors use their own model accounts; this repository contains no model credentials.
 
-Verification runs `node --test`, both locally and in the read-only `verify` GitHub Actions job. The coordinator is pinned to Tokate 0.3.5 by source commit and release archive checksum. It can close pull requests that do not have current Tokate authorization; request access before submitting a contribution. Maintainers review and merge changes after CI passes.
+Verification runs `node --test`, both locally and in the read-only `verify` GitHub Actions job. The coordinator is pinned to Tokate 0.4.8 by source commit and release archive checksum. It can close pull requests that do not have current Tokate authorization; request access before submitting a contribution. Maintainers review and merge changes after CI passes.
 
-See the [Tokate donor guide](https://github.com/obselate/tokate/blob/06092f3428114677961435db7a12a04de2aff748/docs/donors.md) for the contribution flow.
+See the [Tokate donor guide](https://github.com/obselate/tokate/blob/568a15275269034f1e0ea436df5a51c0c23ca583/docs/donors.md) for the contribution flow.
 
 ## Source and license
 

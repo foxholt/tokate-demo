@@ -1,20 +1,14 @@
 {
   "version": 2,
   "approval_scope": "task",
-  "eligibility": "manual",
+  "eligibility": "open",
   "allowed_tools": [
     {
       "harness": "codex",
       "provider": "openai"
     }
   ],
-  "model_policy": "whitelist",
-  "models": {
-    "gpt-6.1-sol": [
-      "high",
-      "xhigh"
-    ]
-  },
+  "model_policy": "unrestricted",
   "max_seconds": 1800,
   "allow_unlimited": false,
   "allow_network": false,
@@ -31,5 +25,6 @@
     "package.json",
     ".github/"
   ],
-  "target_branch": "main"
+  "target_branch": "main",
+  "reservation_seconds": 86400
 }
